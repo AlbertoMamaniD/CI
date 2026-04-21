@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Suma</title>
+</head>
+<body>
+    <h1>Suma dos números</h1>
+    <form action="/" method="post">
+        <input type="number" name="a" required>
+        <input type="number" name="b" required>
+        <button type="submit">Sumar</button>
+    </form>
+    {% if resultado %}
+    <p>Resultado: {{ resultado }}</p>
+    {% endif %}
+</body>
+</html>git remote add origin https://github.com/AlbertoMamaniD/CI.git
