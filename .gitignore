@@ -1,10 +1,43 @@
+# Entornos virtuales
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
 
-Optimizing tool selection...
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
 
-Created suma.py
+# Variables de entorno
+.env
+.env.local
+.env.*.local
 
-Read index.html
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
 
-Read app.py
-
-He implementado toda la lógica necesaria para que la aplicación funcione. Aquí está lo que he creado:
+# Sistema operativo
+.DS_Store
+Thumbs.db
